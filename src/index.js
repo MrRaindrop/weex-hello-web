@@ -47,19 +47,19 @@ function init (Weex) {
   const Component = Weex.Component
   const extend = Weex.utils.extend
 
-  function Mine (data) {
+  function Hello (data) {
     Component.call(this, data)
   }
 
-  Mine.prototype = Object.create(Component.prototype)
-  extend(Mine.prototype, proto)
-  extend(Mine.prototype, { attr })
-  extend(Mine.prototype, {
+  Hello.prototype = Object.create(Component.prototype)
+  extend(Hello.prototype, proto)
+  extend(Hello.prototype, { attr })
+  extend(Hello.prototype, {
     style: extend(Object.create(Component.prototype.style), style)
   })
-  extend(Mine.prototype, { event })
+  extend(Hello.prototype, { event })
 
-  Weex.registerComponent('mine', Mine)
+  Weex.registerComponent('weex-hello', Hello)
 }
 
 export default { init }
