@@ -1,0 +1,24 @@
+{
+  "name": "weex-hello",
+  "version": "0.1.0",
+  "description": "A weex-html5 component to show a hello xxx message.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MrRaindrop/weex-hello.git"
+  },
+  "keywords": [
+    "weex",
+    "component",
+    "extension"
+  ],
+  "author": "MrRaindrop",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MrRaindrop/weex-hello/issues"
+  },
+  "homepage": "https://github.com/MrRaindrop/weex-hello#readme"
+}
