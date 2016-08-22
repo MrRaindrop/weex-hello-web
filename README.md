@@ -1,6 +1,6 @@
 # weex-hello
 
-This is a example extension for weex-html5, which is a self defined component to display a 'hello xxx' infomation panel in the weex page.
+This is a demonstrating extension for weex-html5, which is a self defined component to display a 'hello xxx' infomation panel in the weex page.
 
 ## specs
 
@@ -43,7 +43,7 @@ Just place the tag `<weex-hello>` no matter where you like to display the info. 
 
 ## where to publish
 
-We suggest you publish the component on npm, with the name of `weex-xxx`. For this project, we published the `weex-hello` component to npm, so anyone can just require and use it.
+We suggest you publish the component on npm, with the name of `weex-xxx`. For this project, we published the `weex-hello` component to npm, so anyone can just require and use it by `require('weex-hello')`.
 
 ## help
 
