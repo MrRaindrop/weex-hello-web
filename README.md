@@ -44,3 +44,13 @@ Just place the tag `<weex-hello>` no matter where you like to display the info. 
 ## where to publish
 
 We suggest you publish the component on npm, with the name of `weex-xxx`. For this project, we published the `weex-hello` component to npm, so anyone can just require and use it.
+
+## help
+
+### what is Weex ?
+
+Weex is a project for developers to write code once with web technologies and run it everywhere. [site](http://alibaba.github.io/weex/)
+
+### how to extend Weex with self defined components and APIs ?
+
+weex-hello is a example for extending components. The document for extending weex components and APIs is here: [extend to web](http://alibaba.github.io/weex/doc/advanced/extend-to-html5.html)
